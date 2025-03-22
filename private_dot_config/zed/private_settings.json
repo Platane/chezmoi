@@ -1,0 +1,36 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+	"ui_font_size": 15,
+	"buffer_font_size": 14,
+	"theme": {
+		"mode": "system",
+		"light": "One Light",
+		"dark": "One Dark"
+	},
+	"buffer_font_features": {
+		// Disable ligatures:
+		"calt": false
+	},
+	"buffer_font_weight": 600,
+	"formatter": {
+		"language_server": {
+			"name": "biome"
+		}
+	},
+	"lsp": {
+		"typos": {
+			"initialization_options": {
+				// Diagnostic severity within Zed. "Error" by default, can be:
+				// "Error", "Hint", "Information", "Warning"
+				"diagnosticSeverity": "Hint"
+			}
+		}
+	}
+}

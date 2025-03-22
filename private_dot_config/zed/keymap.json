@@ -1,0 +1,12 @@
+[
+	{
+		"context": "Editor",
+		"bindings": {
+			"ctrl-up": "editor::MoveLineUp",
+			"ctrl-down": "editor::MoveLineDown",
+
+			"ctrl-shift-up": "editor::AddSelectionAbove",
+			"ctrl-shift-down": "editor::AddSelectionBelow"
+		}
+	}
+]
