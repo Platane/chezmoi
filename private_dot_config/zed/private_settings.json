@@ -32,5 +32,8 @@
 				"diagnosticSeverity": "Hint"
 			}
 		}
+	},
+	"auto_install_extensions": {
+		"html": true
 	}
 }
