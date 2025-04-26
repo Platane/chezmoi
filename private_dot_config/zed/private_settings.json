@@ -7,33 +7,41 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-	"ui_font_size": 15,
-	"buffer_font_size": 14,
-	"theme": {
-		"mode": "system",
-		"light": "One Light",
-		"dark": "One Dark"
-	},
-	"buffer_font_features": {
-		// Disable ligatures:
-		"calt": false
-	},
-	"buffer_font_weight": 600,
-	"formatter": {
-		"language_server": {
-			"name": "biome"
-		}
-	},
-	"lsp": {
-		"typos": {
-			"initialization_options": {
-				// Diagnostic severity within Zed. "Error" by default, can be:
-				// "Error", "Hint", "Information", "Warning"
-				"diagnosticSeverity": "Hint"
-			}
-		}
-	},
-	"auto_install_extensions": {
-		"html": true
-	}
+  "ui_font_size": 15,
+  "buffer_font_size": 14,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "One Dark"
+  },
+  "buffer_font_features": {
+    // Disable ligatures:
+    "calt": false
+  },
+  "buffer_font_weight": 600,
+  "formatter": {
+    "language_server": {
+      "name": "biome"
+    }
+  },
+  "lsp": {
+    "typos": {
+      "initialization_options": {
+        // Diagnostic severity within Zed. "Error" by default, can be:
+        // "Error", "Hint", "Information", "Warning"
+        "diagnosticSeverity": "Hint"
+      }
+    },
+    "biome": {
+      "settings": {
+        "require_config_file": true
+      }
+    }
+  },
+  "code_actions_on_format": {
+    "source.organizeImports.biome": true
+  },
+  "auto_install_extensions": {
+    "html": true
+  }
 }
