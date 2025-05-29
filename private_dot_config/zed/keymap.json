@@ -6,7 +6,9 @@
 			"ctrl-down": "editor::MoveLineDown",
 
 			"ctrl-shift-up": "editor::AddSelectionAbove",
-			"ctrl-shift-down": "editor::AddSelectionBelow"
+			"ctrl-shift-down": "editor::AddSelectionBelow",
+
+			"ctrl-shift-d": "editor::DuplicateLineDown",
 		}
 	}
 ]
