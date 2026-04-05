@@ -1,5 +1,13 @@
 {
   "permissions": {
-    "allow": ["WebFetch(*)"]
+    "allow": [
+      "WebFetch(*)",
+      "mcp__chrome-devtools-mcp__*"
+    ]
+  },
+  "enabledPlugins": {
+    "rust-analyzer-lsp@claude-plugins-official": true,
+    "typescript-lsp@claude-plugins-official": true,
+    "chrome-devtools-mcp@claude-plugins-official": true
   }
 }
